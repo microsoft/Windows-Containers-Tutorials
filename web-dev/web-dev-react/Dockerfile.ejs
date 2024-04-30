@@ -1,0 +1,20 @@
+# Start with the Windows Server Core 2022 image
+FROM mcr.microsoft.com/windows/servercore:ltsc2022
+
+# Install chocolatey
+RUN @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+# Install Node.js
+RUN choco install nodejs -y
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Install React
+RUN npm install -g npm
+
+# Docker daemon will map preferred port
+EXPOSE <%= port %>
+
+# Check version. If you're building an app, you can switch this to build
+CMD [ "npm", "-v" ]
