@@ -1,0 +1,51 @@
+h2 {
+  font-size: var(--text-title-size);
+  font-weight: var(--text-title-weight);
+  line-height: var(--text-title-lineHeight);
+}
+
+h3 {
+  font-size: var(--text-title-size-medium);
+  font-weight: var(--text-title-weight-medium);
+  line-height: var(--text-title-lineHeight-medium);
+}
+
+#blankslate-base {
+  border-radius: var(--box-border-radius);
+  border-style: solid;
+  border-width: var(--box-border-width);
+  padding: var(--box-internal-padding);
+  width: var(--box-dynamic-width);
+  margin: auto;
+  margin-top: var(--box-offset-top);
+}
+
+div.Blankslate {
+  gap: var(--section-gaps);
+}
+
+span.Blankslate-Visual {
+  margin-bottom: var(--icon-heading-overlap);
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-title-size: 2rem;
+  --text-title-lineHeight: 1.5;
+  --text-title-weight: 600;
+  --text-title-size-medium: 1.25rem;
+  --text-title-lineHeight-medium: 1.5;
+  --text-title-weight-medium: 600;
+
+  --section-gaps: 25px;
+  --box-border-radius: 8px;
+  --box-border-width: 0.75px;
+  --box-offset-top: 1.5rem;
+  --box-dynamic-width: 70%;
+  --box-internal-padding: 1.5rem;
+  --icon-heading-overlap: -5px;
+}
