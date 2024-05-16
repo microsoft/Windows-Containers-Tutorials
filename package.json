@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/microsoft/Windows-Containers-Tutorials/issues"
   },
-  "homepage": "https://github.com/microsoft/Windows-Containers-Tutorials#readme"
+  "homepage": "https://github.com/microsoft/Windows-Containers-Tutorials#readme",
+  "publishConfig": {
+    "@microsoft:registry": "https://npm.pkg.github.com"
+  }
 }
