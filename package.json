@@ -1,0 +1,27 @@
+{
+  "name": "@microsoft/windows-containers-tutorials",
+  "version": "0.0.0",
+  "description": "Windows Containers Tutorials is a tool that aims to provide a faster and leaner development experience for learning Windows Containers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/Windows-Containers-Tutorials.git"
+  },
+  "keywords": [
+    "containers",
+    "windows",
+    "containers",
+    "kubernetes",
+    "web",
+    "dev"
+  ],
+  "author": "Nicole Trappe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/Windows-Containers-Tutorials/issues"
+  },
+  "homepage": "https://github.com/microsoft/Windows-Containers-Tutorials#readme"
+}
